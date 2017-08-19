@@ -1,0 +1,50 @@
+$darkBackground: #333;
+$lightText: #EEE;
+
+body {
+  font-size: 16px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-top: 0;
+  padding: 2px 0px 5px 10px;
+  background-color: $darkBackground;
+  color: $lightText;
+}
+#sig {
+  float: right;
+  color: $lightText;
+  font-size: 1.2em;
+  margin: 10px;
+}
+.chart {
+  margin-left: 10px;
+}
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+.bar {
+  fill: steelblue;
+}
+.mouseover {
+  fill: red;
+}
+.mouseout {
+  fill: steelblue;
+}
+.axis text {
+  font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
